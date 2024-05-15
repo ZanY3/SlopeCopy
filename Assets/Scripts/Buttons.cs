@@ -9,5 +9,18 @@ public class Buttons : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Game");
-    }    
+    }
+    public void LoadMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menu");
+    }
+    public void LoadTGCLink()
+    {
+        Application.OpenURL("https://t.me/zany1y");
+    }
+    public void LoadYTLink()
+    {
+        Application.OpenURL("https://www.youtube.com/@zany1y/videos");
+    }
 }
