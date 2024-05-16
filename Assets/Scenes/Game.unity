@@ -871,7 +871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac1ffdbae56ec1d4f8a931eaa3b93434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 1
+  movementSpeed: 10
   speed: 25
   DieParticles: {fileID: 8774451393868850142, guid: c2327ee7296f0b2468cfadf37d6b5321, type: 3}
   loseScreen: {fileID: 1826422322}
